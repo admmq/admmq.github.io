@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Adam Kandur - Resume</title>
+<meta name="description" content="Resume of Adam Kandur, Software Engineer.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧑‍💻</text></svg>">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+  <span aria-hidden="true">🌙</span>
+</button>
+
+<div class="page">
+
+  <aside class="sidebar">
+    <h1 class="name">Adam Kandur</h1>
+    <p class="title">Software Engineer</p>
+
+    <nav class="contact" aria-label="Contact information">
+      <ul>
+        <li><a href="mailto:adam.kandur@yandex.ru">✉️ adam.kandur@yandex.ru</a></li>
+        <li><a href="https://github.com/admmq" target="_blank" rel="noopener">💻 github.com/admmq</a></li>
+        <!-- todo: make linkedin link work -->
+        <!-- <li><a href="https://linkedin.com/in/adamkandur" target="_blank" rel="noopener">🔗 linkedin.com/in/adamkandur</a></li> -->
+        <li>📍 Moscow, Russia</li>
+      </ul>
+    </nav>
+
+    <section class="side-section">
+      <h2>Skills</h2>
+      <ul class="skill-list">
+        <li>Linux</li>
+        <li>TypeScript</li>
+        <li>English</li>
+      </ul>
+    </section>
+
+    <button class="print-btn no-print" onclick="window.print()">🖨️ Download PDF</button>
+  </aside>
+
+  <main class="content">
+
+    <section class="section">
+      <h2>Summary</h2>
+      <p>
+        Yet another self-taught software engineer with a passion for solving complex problems
+        and verifying solutions through rigorous testing.
+      </p>
+      <p>
+        Experienced in system administration, QA, and software development in test (SDET).
+      </p>
+      <p>
+        Passionate about automation, new technologies, and continuous learning.
+      </p>
+      <p>
+        Also knows when to keep it simple.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>Experience</h2>
+
+      <article class="entry">
+        <div class="entry-header">
+          <div>
+            <h3>TypeScript Fullstack SDET</h3>
+            <p class="entry-subtitle"><a href="https://platform.gov.ru" target="_blank" rel="noopener noreferrer" style="text-decoration:none">Единая цифровая платформа ГосТех</a> · Moscow, Russia</p>
+          </div>
+          <p class="entry-date">April 2025 - Present</p>
+        </div>
+        <h5>Tools Used:</h5>
+        <ul>
+          <li>TypeScript</li>
+          <li>React</li>
+          <li>NestJS</li>
+          <li>Playwright</li>
+          <li>OpenAI-compatible self-hosted agents</li>
+          <li>GitLab CI</li>
+        </ul>
+        <h5>Key Contributions:</h5>
+        <ul>
+          <li>Covered new company services with tests from scratch</li>
+          <li>Participated in the development and launch of an internal TMS (Test Management System) - development of new features and code refactoring</li>
+          <li>Wrote internal shared testing libraries (npm packages) to reuse common testing functionality</li>
+          <li>Wrote CI/CD pipelines for building and testing projects (GitLab CI)</li>
+        </ul>
+      </article>
+
+      <hr>
+
+      <article class="entry">
+        <div class="entry-header">
+          <div>
+            <h3>Java QA</h3>
+            <p class="entry-subtitle"><a href="https://www.sberbank.ru" target="_blank" rel="noopener noreferrer" style="text-decoration:none">Sber</a> · Moscow, Russia</p>
+          </div>
+          <p class="entry-date">May 2023 - January 2026</p>
+        </div>
+        <h5>Tools Used:</h5>
+        <ul>
+          <li>Java</li>
+          <li>Apache Kafka Clients</li>
+          <li>REST Assured</li>
+          <li>Spring Boot</li>
+          <li>TypeScript</li>
+          <li>Playwright</li>
+          <li>WireMock</li>
+          <li>Camunda 7</li>
+          <li>Jenkins</li>
+        </ul>
+        <h5>Key Contributions:</h5>
+        <ul>
+          <li>Integrated Camunda 7 into the project structure</li>
+          <li>Covered Camunda BPMN schemas with auto tests</li>
+          <li>Built test automation projects from scratch: a web application using TypeScript + Playwright, and Java + Kafka Clients + REST Assured</li>
+          <li>Maintained existing test automation projects in the company using Java + Selenium + REST Assured</li>
+          <li>Integrated automated tests into CI/CD pipelines using Jenkins to ensure continuous testing and fast feedback</li>
+          <li>Implemented a service for generating test data with AI integration</li>
+          <li>Used Spring Boot for writing API tests</li>
+          <li>Reduced testing time for one of the services from 2 weeks to 20 minutes</li>
+        </ul>
+      </article>
+
+      <hr>
+      
+      <article class="entry">
+        <div class="entry-header">
+          <div>
+            <h3>Java QA</h3>
+            <p class="entry-subtitle"><a href="https://www.aladdin-rd.ru" target="_blank" rel="noopener noreferrer" style="text-decoration:none">Aladdin RD</a> · Moscow, Russia</p>
+          </div>
+          <p class="entry-date">February 2022 - May 2023</p>
+        </div>
+        <h5>Tools Used:</h5>
+        <ul>
+          <li>Java</li>
+          <li>Selenium</li>
+          <li>REST Assured</li>
+          <li>Jenkins</li>
+        </ul>
+        <h5>Key Contributions:</h5>
+        <ul>
+          <li>Built a system for creating and cloning test environments (vSphere + Packer + Terraform)</li>
+          <li>Developed internal tools in Java</li>
+          <li>Implemented automated tests for the company's product from scratch in Java</li>
+          <li>Automated the build process for native libraries written in C++</li>
+        </ul>
+      </article>
+
+      <hr>
+
+      <article class="entry">
+        <div class="entry-header">
+          <div>
+            <h3>Linux / Windows Server Sysadmin</h3>
+            <p class="entry-subtitle">ElasticaGroup · Moscow, Russia</p>
+          </div>
+          <p class="entry-date">August 2020 - February 2022</p>
+        </div>
+        <h5>Tools Used:</h5>
+        <ul>
+          <li>Ubuntu</li>
+          <li>Windows Server (AD, Exchange, Hyper-V)</li>
+          <li>Bash</li>
+          <li>Powershell</li>
+          <li>Python</li>
+        </ul>
+        <h5>Key Contributions:</h5>
+        <ul>
+          <li>Deployed infrastructure on the Hyper-V platform and migrated users from legacy systems according to a pre-planned migration schedule</li>
+          <li>Configured CI/CD on locally hosted GitLab instances for clients</li>
+          <li>Dockerized applications for easier deployment and management</li>
+          <li>Automated internal tasks with scripts</li>
+        </ul>
+      </article>
+
+      <hr>
+      
+      <article class="entry">
+        <div class="entry-header">
+          <div>
+            <h3>B.S. in Economics</h3>
+            <p class="entry-subtitle"><a href="https://www.rudn.ru/" target="_blank" rel="noopener noreferrer" style="text-decoration:none">Peoples' Friendship University of Russia</a> · Moscow, Russia</p>
+          </div>
+          <p class="entry-date"></p>
+        </div>
+        <h5>Tools Used:</h5>
+        <ul>
+          <li>MS Word</li>
+          <li>MS Excel</li>
+          <li>MS PowerPoint</li>
+          <li>Python</li>
+          <li>NumPy</li>
+        </ul>
+        <h5>Achievements:</h5>
+        <ul>
+          <li>Completed studies</li>
+          <li>Wrote a thesis</li>
+          <li>Cleared academic debts</li>
+        </ul>
+      </article>
+
+      <hr>
+
+      <article class="entry">
+        <div class="entry-header">
+          <div>
+            <h3>Linux Sysadmin</h3>
+            <p class="entry-subtitle">RDL-Telecom · Moscow, Russia</p>
+          </div>
+          <p class="entry-date">July 2019 - February 2020</p>
+        </div>
+        <h5>Tools Used:</h5>
+        <ul>
+          <li>CentOS</li>
+          <li>Docker</li>
+          <li>Bash</li>
+          <li>Python</li>
+        </ul>
+        <h5>Key Contributions:</h5>
+        <ul>
+          <li>Orchestrated 300+ servers running CentOS</li>
+          <li>Migrated all these servers from CentOS 6 to CentOS 7</li>
+          <li>Wrote a custom monitoring system in Bash and Python</li>
+          <li>Wrote several small utilities to solve employees' everyday problems</li>
+          <li>Learned to configure network equipment (MikroTik)</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="section">
+      <h2>Education</h2>
+      <article class="entry">
+        <div class="entry-header">
+          <div>
+            <h3>B.S. in Economics</h3>
+            <p class="entry-subtitle"><a href="https://www.rudn.ru/" target="_blank" rel="noopener noreferrer" style="text-decoration:none">Peoples' Friendship University of Russia</a></p>
+          </div>
+          <p class="entry-date">2016 - 2020</p>
+        </div>
+      </article>
+    </section>
+
+  </main>
+</div>
+
+<footer class="footer no-print">
+  <p>&copy; <span id="year"></span> Adam Kandur. Built with plain HTML, CSS &amp; JS.</p>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
